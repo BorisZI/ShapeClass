@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A9E7FCF228D49B84003DE044 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FCF128D49B84003DE044 /* main.swift */; };
+		A9E7FCF928D4AC8E003DE044 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FCF828D4AC8E003DE044 /* Circle.swift */; };
+		A9E7FCFB28D4ACA0003DE044 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FCFA28D4ACA0003DE044 /* Rectangle.swift */; };
+		A9E7FCFD28D4ACB4003DE044 /* Ellips.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FCFC28D4ACB4003DE044 /* Ellips.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		A9E7FCEE28D49B84003DE044 /* ShapeClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShapeClass; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E7FCF128D49B84003DE044 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A9E7FCF828D4AC8E003DE044 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		A9E7FCFA28D4ACA0003DE044 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		A9E7FCFC28D4ACB4003DE044 /* Ellips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ellips.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				A9E7FCF128D49B84003DE044 /* main.swift */,
+				A9E7FCF828D4AC8E003DE044 /* Circle.swift */,
+				A9E7FCFA28D4ACA0003DE044 /* Rectangle.swift */,
+				A9E7FCFC28D4ACB4003DE044 /* Ellips.swift */,
 			);
 			path = ShapeClass;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E7FCFD28D4ACB4003DE044 /* Ellips.swift in Sources */,
+				A9E7FCFB28D4ACA0003DE044 /* Rectangle.swift in Sources */,
 				A9E7FCF228D49B84003DE044 /* main.swift in Sources */,
+				A9E7FCF928D4AC8E003DE044 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
