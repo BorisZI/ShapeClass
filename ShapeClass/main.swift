@@ -27,11 +27,12 @@ class Shape {
     }
     
     func squareOfShape() -> Float {
-        radius
+        0
     }
     
     func perimeterOfShape() -> Float {
-        (height + width) * 2
+        0
+        
     }
     
 }

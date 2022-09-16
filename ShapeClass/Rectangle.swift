@@ -10,7 +10,7 @@ import Foundation
 class Rectangle: Shape {
     
     override func squareOfShape() -> Float {
-        width * height * 2
+        width * height
     }
     
     override func perimeterOfShape() -> Float {
